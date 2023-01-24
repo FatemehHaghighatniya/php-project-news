@@ -6,7 +6,7 @@ session_start();
 
 //config
 define('BASE_PATH', __DIR__);
-define('CURRENT_DOMAIN', currentDomain() . '/project2');
+define('CURRENT_DOMAIN', currentDomain() . '/php-project-news');
 define('DISPLAY_ERROR', true);
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'project');
@@ -17,8 +17,8 @@ define('DB_PASSWORD', '');
 //mail
 // define('MAIL_HOST','smtp.gmail.com');
 // define('SMTP_AUTH',true);
-// define('MAIL_USERNAME','fatemehhaghighatniya@gmail.com');
-// define('MAIL_PASSWORD','09192536960');
+// define('MAIL_USERNAME','');
+// define('MAIL_PASSWORD','');
 // define('MAIL_PORT',587);
 // define('SENDER_MAIL','fatemehhaghighatniya@gmail.com');
 // define('SENDER_NAME','دوره آموزشی PHP');
